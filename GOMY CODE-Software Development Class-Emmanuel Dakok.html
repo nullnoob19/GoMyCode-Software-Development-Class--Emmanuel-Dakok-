@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoMyCode Emmanuel Dakok Portfolio website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="navdiv">
-                <div class="logo"><a href="#home">Emmanuel's Portfolio</a></div                
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="Work">Work</a>
-                <a href="Resume">Resume</a>
-                <a href="Contact">Contact</a>
+                <div class="logo"><a href="#home">StreetSermon</a></div>
+                <ul>                
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="Work">Work</a></li>
+                    <li><a href="Resume">Resume</a></li>
+                    <li><a href="Contact">Contact</a></li>
+                </ul>
             </div>
         </nav>
 
     </header>
     <!--Home  Section-->
     <section id="about" class="section1">
-        <img src="Emmanuel Dakok.jpg" alt="Emmanuel Dakok" width="200" height="200">
-        <h2>About Me</h2>
+        <img src="S.png" alt="StreetSermon" width="200" height="200">
+        <h2>About My Brand</h2>
         <p>My name is Emmanuel Dakok, and I am a software developer with a passion for creating web applications.</p>
         <p>I have experience in HTML, CSS, and JavaScript, and I am currently learning more about web development through the GoMyCode Software Development Class.</p>
     </section>
@@ -35,14 +38,14 @@
             <li>Project 1: Web Development Basics</li>
             <li>Project 2: Responsive Design</li>
             <li>Project 3: JavaScript Fundamentals</li>
-            <li>UI/UX with Figma</li>
+            <li>Project: UI/UX with Figma</li>
         </ul>
     </section>
 
     <!--Resume Section-->
     <section id="Resume" class="section3">
         <h2>Resume</h2>
-        <table border="1">
+        <table border="1" style="color: white;">
             <tr>
                 <th>Education</th>
                 <th>Experience</th>
@@ -56,16 +59,18 @@
         </table>
     </section>
 
-    <iframe
-        width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/ldwlOzRvYOU?si=eJs5EkItBl8A29Zy" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen>
-    </iframe>
+    <div class="ytvideo">
+        <iframe
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/ldwlOzRvYOU?si=eJs5EkItBl8A29Zy" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div>
 
     <!--Contact Section-->
     <section id="Contact">
@@ -87,15 +92,8 @@
         </div>
     </section>
 
-
-
-
-
-
-
-        <h2>Welcome to My Portfolio</h2>
-        <p>This is a brief introduction to my work and skills.</p>
-        <p>This is a simple HTML page created as part of the GoMyCode Software Development Class.</p>
-      <footer>
+     <footer>
         <p>&copy; 2025 Emmanuel Dakok</p>
     </footer>
+</body>
+</html>
