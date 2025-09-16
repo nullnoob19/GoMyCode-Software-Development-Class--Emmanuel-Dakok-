@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E's Travel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-dark text-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">E's Travel</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero text-white text-center d-flex align-items-center justify-content-center" style="background-image: url('Crystal-clear\ waters.png'); height: 100vh; background-size: cover; background-position: center;">
+    <div>
+        <h1 class="display-2 text-white" style="font-family: Playfair Display, serif">Explore the World with <strong>E's Travel</strong></h1>
+        <a href="#destinations" class="btn btn-primary btn-lg mt-3">Discover More</a>
+    </div>
+</section>
+
+<section class="container my-5 id=#destinations">
+    <div class="row my-5">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="Bali.jpg" class="card-img-top" alt="Bali">
+                <div class="card-body">
+                    <h5 class="card-title">Bali, Indonesia</h5>
+                    <p class="card-text">Experience the serene beaches and vibrant culture of Bali.</p>
+                    <a href="#" class="btn btn-info">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="Paris.jpg" class="card-img-top" alt="Paris">
+                <div class="card-body">
+                    <h5 class="card-title">Paris, France</h5>
+                    <p class="card-text">Discover the city of lights, art, and romance.</p>
+                    <a href="#" class="btn btn-info">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="Kyoto.jpg" class="card-img-top" alt="Kyoto">
+                <div class="card-body">
+                    <h5 class="card-title">Kyoto, Japan</h5>
+                    <p class="card-text">Explore ancient temples and beautiful gardens in Kyoto.</p>
+                    <a href="#" class="btn btn-info">Learn More</a>
+        </div>
+</section>
+
+<section class="container my-5" id="tours">
+    <h2>Tour Packages</h2>
+    <div class="accordion" id="tourAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    7-Day Bali Adventure
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#tourAccordion">
+                <div class="accordion-body">
+                    Enjoy a week of sun, sand, and culture in beautiful Bali. Includes accommodation, guided tours, and meals.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    5-Day Paris Highlights
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#tourAccordion">
+                <div class="accordion-body">
+                    Explore the iconic landmarks of Paris, including the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. Includes accommodation and city tours.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    6-Day Kyoto Cultural Experience
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#tourAccordion">
+                <div class="accordion-body">
+                    Immerse yourself in the rich history and culture of Kyoto with visits to ancient temples, traditional tea ceremonies, and scenic gardens. Includes accommodation and guided tours.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container my-5 p-5">
+    <h2 class="text-center">Contact Us</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+</section>
+
+
+
+
+
+
+
+
+<footer class="bg-light text-dark text-center py-3">
+    <p>&copy; 2025 E's Travel. All rights reserved.</p> 
+    <p>
+        <a href="#" class="text-dark me-3">Privacy Policy</a>
+        <a href="#" class="text-dark">Terms of Service</a>
+        <p>Made by Emmanuel Dakok</p>
+    </p>
+</footer>
+
+</body>
+</html>
