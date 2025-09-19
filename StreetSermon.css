@@ -1,0 +1,73 @@
+.h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#glassy {
+    background: rgb(0, 0, 0); /* Transparent white */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px; /* Inner spacing */
+    color: #fff; /* Text color for contrast */
+}
+
+#navy {
+    background: rgb(0, 0, 0); /* Transparent white */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3); /* Soft shadow */
+    padding: 20px; /* Inner spacing */
+    color: #ffffff; /* Text color for contrast */
+}
+
+#sst {
+    font-family: Papyrus, 'Papyrus EF', fantasy;
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  max-height: 300px;
+    width: auto;
+}
+
+.carousel-slide {
+    max-height: 300px;
+    width: auto;
+    
+}
+
+.ANTRL {
+    max-height: 300px;
+    width: auto;
+    margin-top: 30px;
+}
+
+.card {
+    background: rgb(0, 0, 0); /* Transparent white */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3); /* Soft shadow */
+    padding: 20px; /* Inner spacing */
+    color: #ffffff; /* Text color for contrast */
+}
+
+#foot {
+    background: rgb(0, 0, 0); /* Transparent white */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3); /* Soft shadow */
+    padding: 20px; /* Inner spacing */
+    color: #ffffff; /* Text color for contrast */
+}
